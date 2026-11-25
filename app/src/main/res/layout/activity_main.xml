@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://android.com"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11111B"
+    android:padding="18dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🦊 RedFox Manager"
+            android:textColor="#F38BA8"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="RMX3624 Kernel &amp; System Control"
+            android:textColor="#A6ADC8"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1E1E2E"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tvStats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:lineSpacingExtra="4dp"
+                android:text="Загрузка телеметрии ядра..."
+                android:textColor="#CDD6F4"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/btnRefresh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#313244"
+                android:text="🔄 Обновить показатели"
+                android:textColor="#CDD6F4" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Профили производительности"
+            android:textColor="#F5E0DC"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnGaming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#F38BA8"
+            android:text="⚡ RedFox Ultimate (Максимум / Игры)"
+            android:textColor="#11111B" />
+
+        <Button
+            android:id="@+id/btnBalanced"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#89B4FA"
+            android:text="⚖️ Balanced (Оптимальный баланс)"
+            android:textColor="#11111B" />
+
+        <Button
+            android:id="@+id/btnBattery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#A6E3A1"
+            android:text="🔋 Battery Saver (Автономность)"
+            android:textColor="#11111B" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Системные действия и фиксы"
+            android:textColor="#F5E0DC"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnApplyFixes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#313244"
+            android:text="☀️ Применить фикс яркости 4095 и кодеков"
+            android:textColor="#CDD6F4" />
+
+        <Button
+            android:id="@+id/btnRecovery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#313244"
+            android:text="🛠️ Перезагрузить в Red-Fox Recovery"
+            android:textColor="#F9E2AF" />
+
+        <Button
+            android:id="@+id/btnBootloader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#313244"
+            android:text="🚀 Перезагрузить в Bootloader (Fastboot)"
+            android:textColor="#FAB387" />
+
+    </LinearLayout>
+</ScrollView>
