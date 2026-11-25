@@ -19,10 +19,11 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/tvDeviceSubtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="RMX3624 Kernel &amp; System Control"
+            android:text="Universal Android Kernel &amp; System Control"
             android:textColor="#A6ADC8"
             android:textSize="14sp" />
 
@@ -40,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="monospace"
                 android:lineSpacingExtra="4dp"
-                android:text="Загрузка телеметрии ядра..."
+                android:text="Загрузка телеметрии устройства..."
                 android:textColor="#CDD6F4"
                 android:textSize="13sp" />
 
@@ -94,7 +95,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Системные действия и фиксы"
+            android:text="Системные действия и GSI-фиксы"
             android:textColor="#F5E0DC"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -105,7 +106,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:backgroundTint="#313244"
-            android:text="☀️ Применить фикс яркости 4095 и кодеков"
+            android:text="☀️ Применить GSI-фиксы (Яркость и кодеки)"
             android:textColor="#CDD6F4" />
 
         <Button
@@ -114,7 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:backgroundTint="#313244"
-            android:text="🛠️ Перезагрузить в Red-Fox Recovery"
+            android:text="🛠️ Перезагрузить в Recovery"
             android:textColor="#F9E2AF" />
 
         <Button
